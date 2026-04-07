@@ -1,0 +1,26 @@
+# StockFlow — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# Data validation
+pydantic==2.10.3
+
+# Database ORM + driver
+sqlalchemy==2.0.36
+
+# PostgreSQL driver (for production; not needed for SQLite demo)
+psycopg2-binary==2.9.10
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.28.1        # Used by FastAPI TestClient
+
+# Code quality
+ruff==0.8.4          # Linting + formatting
